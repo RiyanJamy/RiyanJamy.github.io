@@ -6,4 +6,4 @@ Hi, I'm Jamy! Here's my awesome personal website.
 - 🎨 Designer
 - 🌐 Innovator
 
-[Check out my projects](https://github.com/your-username)
+[Check out my projects](https://github.com/RiyanJamy)
