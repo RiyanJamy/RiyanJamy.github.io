@@ -54,9 +54,12 @@
 		const today = new Date();
 		const diffInMs = Math.abs(today - startDate);
 		const diffInDays = Math.ceil(diffInMs / (1000 * 60 * 60 * 24));
-	  
-		const streakCounter = document.getElementById('streak'); // Select by ID
-		streakCounter.dataset.to = diffInDays;
+
+		document.addEventListener('DOMContentLoaded', () => {
+			const streakElement = document.getElementById('streak');
+			streakElement.setAttribute('data-to', diffInDays);
+			streakElement.textContent = diffInDays; // Display the value immediately
+		});
 	</script>
 	
 	</head>
@@ -242,7 +245,7 @@
 							<span class="colorlib-counter-label">Publications</span>
 						</div>
 						<div class="col-md-4 text-center animate-box">
-							<span id="streak" class="colorlib-counter js-counter" data-from="0" data-to="" data-speed="5000" data-refresh-interval="50"></span>
+							<span id="streak" class="colorlib-counter js-counter" data-from="0" data-speed="5000" data-refresh-interval="50"></span>
 							<span class="colorlib-counter-label">Days streak in Duolingo</span>
 						</div>
 					</div>
