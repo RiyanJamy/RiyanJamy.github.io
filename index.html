@@ -566,7 +566,7 @@
 									<i class="icon-globe-outline"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a href="riyanhashemjamy@gmail.com">riyanhashemjamy@gmail.com</a></p>
+									<p><a href="mailto:riyanhashemjamy@gmail.com" target="_blank">riyanhashemjamy@gmail.com</a></p>
 								</div>
 							</div>
 
@@ -608,36 +608,7 @@
 											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
 										</div>
 									</form>
-									<!-- JavaScript to handle form submission success -->
-									<script>
-										document.getElementById('myForm').addEventListener('submit', function(e) {
-											e.preventDefault(); // Prevent the default form submission
-											
-											// Send the form data via AJAX
-											fetch(this.action, {
-												method: this.method,
-												body: new FormData(this),
-												headers: {
-													'Accept': 'application/json'
-												}
-											})
-											.then(response => {
-												if (response.ok) {
-													// If successful, display a success message
-													alert('Thank you! Your message has been submitted.');
-													// Redirect the user to your site or any other page
-													window.location.href = '/thank-you'; // Redirect to a thank you page or your main page
-												} else {
-													alert('There was a problem submitting your message. Please try again.');
-												}
-											})
-											.catch(error => {
-												alert('An error occurred. Please try again.');
-											});
-										});
-									</script>
 								</div>
-								
 							</div>
 						</div>
 					</div>
