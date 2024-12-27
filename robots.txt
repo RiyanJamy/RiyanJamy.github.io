@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /sitemap.xml
+Sitemap: https://riyanjamy.github.io/sitemap.xml
