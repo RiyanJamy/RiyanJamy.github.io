@@ -1967,17 +1967,17 @@ body.offcanvas .colorlib-nav-toggle {
   transition: 0.5s;
 }
 
-@media screen and (max-width: 768px) {
-  .colorlib-nav-toggle {
-    opacity: 1;
-    visibility: visible;
-  }
-}
-
 @media screen and (max-width: 480px) {
   .col-xxs-12 {
     float: none;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .colorlib-nav-toggle {
+    opacity: 1;
+    visibility: visible;
   }
 }
 
