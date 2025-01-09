@@ -1177,10 +1177,12 @@ body.offcanvas .colorlib-nav-toggle {
 
 /* Initially hide off-canvas menu on desktop */
 @media (min-width: 768px) {
-    body.offcanvas #colorlib-aside {
-        transform: translateX(-300px); /* Hide the menu */
-        width: 0; /* Shrink width */
-    }
+  body.offcanvas #colorlib-aside {
+    transform: translateX(-300px);
+    /* Hide the menu */
+    width: 0;
+    /* Shrink width */
+  }
 }
 
 
